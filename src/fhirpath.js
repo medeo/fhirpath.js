@@ -75,6 +75,7 @@ engine.invocationTable = {
   select:       {fn: filtering.selectMacro, arity: {1: ["Expr"]}},
   single:       {fn: filtering.singleFn},
   first:        {fn: filtering.firstFn},
+  item:         {fn: filtering.itemFn, arity: {1: ["Integer"]}},
   last:         {fn: filtering.lastFn},
   ofType:       {fn: filtering.ofTypeFn, arity: {1: ["Identifier"]}},
   tail:         {fn: filtering.tailFn},

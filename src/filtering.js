@@ -58,6 +58,10 @@ engine.firstFn = function(x) {
   return x[0];
 };
 
+engine.itemFn = function(x, n) {
+  return x[n];
+};
+
 engine.lastFn = function(x) {
   return x[x.length - 1];
 };

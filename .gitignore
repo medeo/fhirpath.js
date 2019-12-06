@@ -7,3 +7,5 @@ build
 .editorconfig
 Makefile
 browser-build/fhirpath.min.js.map
+
+.idea/
